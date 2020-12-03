@@ -3,7 +3,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-import { applyPolyfills, defineCustomElements } from 'my-component/loader';
+import { applyPolyfills, defineCustomElements } from 'stencil-ds/loader';
 
 if (environment.production) {
   enableProdMode();
